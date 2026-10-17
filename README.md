@@ -2,11 +2,11 @@
 
 Implementasi pipeline DevSecOps menggunakan GitHub Actions untuk melakukan build, unit testing, dan Static Application Security Testing (SAST) pada aplikasi Python Manajemen Data Mahasiswa.
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 
 Aplikasi Manajemen Data Mahasiswa merupakan aplikasi berbasis Python yang digunakan untuk mengelola data mahasiswa melalui terminal. Proyek ini dikembangkan sebagai implementasi praktik DevSecOps dengan mengintegrasikan pengujian otomatis dan pemindaian keamanan kode ke dalam proses pengembangan perangkat lunak.
 
-## ✨ Fitur Aplikasi
+## Fitur Aplikasi
 
 - Menambahkan data mahasiswa.
 - Menampilkan data mahasiswa.
@@ -15,7 +15,7 @@ Aplikasi Manajemen Data Mahasiswa merupakan aplikasi berbasis Python yang diguna
 - Menyimpan data mahasiswa ke file JSON.
 - Membuat laporan data mahasiswa.
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - Python 3
 - Git dan GitHub
@@ -23,7 +23,7 @@ Aplikasi Manajemen Data Mahasiswa merupakan aplikasi berbasis Python yang diguna
 - Pytest untuk unit testing
 - Bandit untuk Static Application Security Testing (SAST)
 
-## 📂 Struktur Proyek
+## Struktur Proyek
 
 ```text
 devsecops-p5-0110225023/
@@ -42,12 +42,12 @@ devsecops-p5-0110225023/
 └── data_mahasiswa.json
 ```
 
-## ⚙️ Persyaratan
+## Persyaratan
 
 - Python 3.10 atau versi yang kompatibel dengan aplikasi.
 - pip untuk menginstal dependensi.
 
-## 🚀 Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
 1. Clone repository:
 
@@ -73,7 +73,7 @@ devsecops-p5-0110225023/
    python app.py
    ```
 
-## 🧪 Pengujian Otomatis
+## Pengujian Otomatis
 
 Unit test dijalankan untuk memeriksa fungsi aplikasi agar bekerja sesuai harapan.
 
@@ -81,7 +81,7 @@ Unit test dijalankan untuk memeriksa fungsi aplikasi agar bekerja sesuai harapan
 python -m pytest -v
 ```
 
-## 🔐 Static Application Security Testing (SAST)
+## Static Application Security Testing (SAST)
 
 Pemindaian keamanan kode dilakukan menggunakan Bandit untuk mendeteksi pola kode Python yang berpotensi memiliki kerentanan keamanan.
 
@@ -91,7 +91,7 @@ Perintah pemindaian lokal:
 python -m bandit -r . -x ./tests
 ```
 
-## 🔄 Pipeline GitHub Actions
+## Pipeline GitHub Actions
 
 Pipeline otomatis dijalankan ketika terdapat push ke branch `main` atau pull request.
 
@@ -102,12 +102,12 @@ Pipeline terdiri dari dua job utama:
 
 Hasil eksekusi pipeline dapat dilihat melalui tab **Actions** pada repository GitHub.
 
-## 👨‍💻 Identitas Proyek
+## Identitas Proyek
 
 - Repository: `devsecops-p5-0110225023`
 - Platform: GitHub
 - Fokus: Implementasi CI dan SAST menggunakan GitHub Actions.
 
-## 📄 Lisensi
+## Lisensi
 
 Proyek ini dibuat untuk keperluan pembelajaran dan tugas praktikum DevSecOps.
